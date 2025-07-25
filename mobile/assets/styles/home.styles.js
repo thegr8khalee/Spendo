@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
   headerRight: {
     flexDirection: "row",
     alignItems: "center",
-    gap: 12,
+    gap: 6,
   },
   headerTitle: {
     fontSize: 28,

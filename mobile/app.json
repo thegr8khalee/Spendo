@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.thegr8khalee.mobile"
     },
     "web": {
       "bundler": "metro",
@@ -25,6 +26,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-dev-client",
       [
         "expo-splash-screen",
         {
@@ -37,6 +39,13 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "clerkPublishableKey": "pk_test_ZmVhc2libGUtYmFzaWxpc2stNjMuY2xlcmsuYWNjb3VudHMuZGV2JA",
+      "eas": {
+        "projectId": "cff2c903-e2ac-4e51-99cb-b2135954a43e"
+      }
     }
   }
 }
