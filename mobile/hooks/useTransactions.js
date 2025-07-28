@@ -4,7 +4,7 @@ import { useCallback, useState } from 'react';
 import { Alert } from 'react-native';
 // import { API_URL } from '../constants/api';
 
-const API_URL = "https://spendo-api-mxsr.onrender.com/api";
+const API_URL = "https://spendo-api-d6yj.onrender.com/api";
 
 export const useTransactions = (userId) => {
   const [transactions, setTransactions] = useState([]);
